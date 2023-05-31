@@ -1,0 +1,33 @@
+.txt-gr {
+  color: $primary-color;
+}
+
+.txt-w {
+  color: $white-color;
+}
+
+.txt-linear {
+  background: linear-gradient(270deg, #D99F60 0%, #FAC489 53.13%, #D99F60 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.txt-content {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #363636;
+  @media (max-width: 992px) {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+.line-border {
+  background: radial-gradient(50% 50% at 50% 50%, #F2F3FF 0%, rgba(242, 243, 255, 0) 100%);
+  opacity: 0.2;
+  height: 2px;
+}
