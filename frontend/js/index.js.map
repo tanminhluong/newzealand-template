@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","mappings":";;;;;AAAA;AACA;AACA;AACA,CAAC","sources":["webpack://ethiopia-landingpage/./frontend/_js/main.js"],"sourcesContent":["const heroSwiper = new Swiper(\".hero-swiper\", {\r\n  direction: \"horizontal\",\r\n  loop: false,\r\n});\r\n"],"names":[],"sourceRoot":""}

@@ -3,8 +3,307 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="/frontend/css/style.min.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <a href="/" title="page logo" target="_self" class="logo">
+            <img
+              src="./images/logo-new-zealand.svg"
+              alt="new zealand logo"
+              title="new zealand logo"
+              width="166"
+              height="40"
+            />
+          </a>
+          <input type="checkbox" id="nav-mb-input" class="nav__input d-none" />
+          <label for="nav-mb-input" class="menu-icon">
+            <img
+              src="./images/icon-hamburger.svg"
+              alt="menu icon"
+              title="menu"
+              width="18"
+              height="18"
+              class="hamburger"
+            />
+            <img
+              src="./images/icon-close.svg"
+              alt="menu close icon"
+              title="menu close"
+              width="18"
+              height="18"
+              class="close-icon"
+            />
+          </label>
+          <label for="nav-mb-input" class="nav__overlay"></label>
+          <nav class="header__nav--mobile">
+            <ul>
+              <li>
+                <a href="#" title="new zealand travel" target="_self"
+                  >New Zealand Travel</a
+                >
+              </li>
+              <li>
+                <a href="#" title="Things to do" target="_self">Things to do</a>
+              </li>
+              <li>
+                <a href="#" title="Where to go" target="_self">Where to go</a>
+              </li>
+              <li>
+                <a href="#" title="Contact us" target="_self">Contact us</a>
+              </li>
+              <li>
+                <a href="#" title="Get in touch" target="_self">Get in touch</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero__content">
+        <h1>Discover the wildlife wonders of <span>New Zealand</span></h1>
+        <p class="txt-content">
+          New Zealand is home to many unique and amazing animals. You will be
+          amazed by the diversity and beauty of New Zealand’s fauna. Apply today
+          and get ready for an unforgettable wildlife adventure.
+        </p>
+        <a href="#" title="apply" target="_self" class="btn">apply now</a>
+      </div>
+      <div class="swiper hero-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="./images/slide-mb-1.jpg"
+              alt="slide-mb-1"
+              title="slide-mb-1"
+              width="375"
+              height="600"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./images/slide-mb-2.jpg"
+              alt="slide-mb-2"
+              title="slide-mb-2"
+              width="375"
+              height="600"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="container">
+        <div class="intro__wrapper">
+          <h2 class="heading-2">New Zealand - To The Heaven On Earth</h2>
+          <p class="txt-content">
+            New Zealand is a stunning destination that offers everything from
+            untamed wilderness to rich culture. Whether you are looking for
+            adventure, nature, wildlife, or relaxation, you will find it in this
+            beautiful country.
+          </p>
+          <p class="txt-content">
+            You can explore the pristine beaches of the Bay of Islands, the
+            steaming volcanoes of Rotorua, the majestic peaks of Milford Sound,
+            and the vibrant cities of Auckland and Wellington. You can also
+            experience the Māori culture first-hand, taste world-class wines and
+            seafood, and discover the magic of Middle-earth™. New Zealand is a
+            place where you can create unforgettable memories and have the time
+            of your life. Don’t wait any longer, step outside the box and
+            explore exciting things that are waiting in New Zealand.
+          </p>
+          <div class="ready-form">
+            <h3 class="heading-3">
+              Ready for the New Zealand Adventure in 24 hours
+            </h3>
+            <a href="#" title="apply" target="_self" class="btn"> apply now </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="where-to-go">
+      <div class="where-under-img">
+        <img
+          src="./images/bg-where-to-go-1.png"
+          alt="bg where to go 1"
+          title="bg where to go 1"
+          width="348"
+          height="264"
+        />
+      </div>
+      <div class="container">
+        <h2 class="heading-2">Where to go</h2>
+        <div class="where-to-go__item">
+          <div class="item__card">
+            <img
+              src="./images/southern-scenic.png"
+              alt="southern-scenic route"
+              title="southern-scenic route"
+              width="315"
+              height="315"
+            />
+            <div class="item__text-container d-none">
+              <p class="txt-content">
+                If you love nature and wildlife, you can explore the Southern
+                Scenic Route, which takes you from Dunedin to Milford Sound,
+                passing by stunning landscapes, wildlife sanctuaries, and
+                national parks. You can see penguins, seals, dolphins, and
+                whales, as well as glaciers, waterfalls, and fjords.
+              </p>
+            </div>
+          </div>
+          <h3 class="heading-3">Southern Scenic Route</h3>
+        </div>
+        <div class="where-to-go__item">
+          <div class="item__card">
+            <img
+              src="./images/queen-town.png"
+              alt="queen-town"
+              title="queen-town"
+              width="315"
+              height="315"
+            />
+            <div class="item__text-container d-none">
+              <p class="txt-content">
+                If you love adventure and adrenaline, you can head to
+                Queenstown, the adventure capital of the world. You can try
+                bungy jumping, rafting, skydiving, jet boating, and more. You
+                can also enjoy the scenic beauty of Lake Wakatipu and the
+                Remarkables mountain range.
+              </p>
+            </div>
+          </div>
+          <h3 class="heading-3">Queenstown</h3>
+        </div>
+        <div class="where-to-go__item">
+          <div class="item__card">
+            <img
+              src="./images/aukland.png"
+              alt="Aukland and Bay of Islands"
+              title="Aukland and Bay of Islands"
+              width="315"
+              height="315"
+            />
+            <div class="item__text-container d-none">
+              <p class="txt-content">
+                If you love adventure and adrenaline, you can head to
+                Queenstown, the adventure capital of the world. You can try
+                bungy jumping, rafting, skydiving, jet boating, and more. You
+                can also enjoy the scenic beauty of Lake Wakatipu and the
+                Remarkables mountain range.
+              </p>
+            </div>
+          </div>
+          <h3 class="heading-3">Aukland and Bay of Islands</h3>
+        </div>
+        <div class="where-to-go__item">
+          <div class="item__card">
+            <img
+              src="./images/home-middle.png"
+              alt="Home of Middle-earth™"
+              title="Home of Middle-earth™"
+              width="315"
+              height="315"
+            />
+            <div class="item__text-container d-none">
+              <p class="txt-content">
+                If you love movies and fantasy, you can follow the Home of
+                Middle-earth™ itinerary, which takes you to some of the filming
+                locations of The Lord of the Rings and The Hobbit trilogies. You
+                can visit Hobbiton in Matamata, see Mount Doom in Tongariro
+                National Park, explore Rivendell in Kaitoke Regional Park, and
+                more.
+              </p>
+            </div>
+          </div>
+          <h3 class="heading-3">Home of Middle-earth™</h3>
+        </div>
+      </div>
+      <div class="where-under-img">
+        <img
+          src="./images/bg-where-to-go-2.png"
+          alt="bg where to go 2"
+          title="bg where to go 2"
+          width="348"
+          height="264"
+        />
+      </div>
+    </section>
+
+    <section class="open-the-door">
+      <img
+        src="./images/bg-open-the-door.png"
+        alt="open the door bg"
+        title="open the door bg"
+        width="375"
+        height="680"
+      />
+      <div class="open-the-door__content">
+        <div class="open-logo">
+          <img
+            src="./images/icon-open-the-door.svg"
+            alt="open"
+            title="open"
+            width="245"
+            height="40"
+          />
+          <h3 class="heading-3">Open the door</h3>
+        </div>
+        <h2 class="heading-2">
+          Get on board and travel to <span>New Zealand now!</span>
+        </h2>
+        <p class="txt-content">
+          Prepare your documents for the Cambodia trip in just 3 simple steps.
+          Get support and some real-time travel info & special deals on your
+          first trip now!
+        </p>
+        <a href="#" title="apply" target="_self" class="btn">apply now</a>
+      </div>
+    </section>
+
+    <section class="things-to-do">
+      <img
+        src="./images/bg-things-to-do.png"
+        alt="things to do bg"
+        title="things to do bg"
+        width=""
+      />
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
